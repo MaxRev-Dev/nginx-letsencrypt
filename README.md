@@ -26,7 +26,7 @@
 
    More info: https://github.com/nginx-proxy/docker-letsencrypt-nginx-proxy-companion/wiki
 
-   ```
+   ```yaml
        - VIRTUAL_HOST=example.com
        - VIRTUAL_PORT={your-container-port} 
        - LETSENCRYPT_HOST=example.com
